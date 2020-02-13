@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@font-face {
+  font-family: 'RansomNote';
+  src: local('RansomNote'), url('./fonts/ransom.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'RansomNote', 'Times New Roman';
+  text-align: center;
+  margin: 0px auto 0px auto;
+  padding: 20px;
+  font-size: 8vw;
+  letter-spacing: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ .w {
+  background-color: white;
+  color: #000000;
+}
+ .b {
+  background-color: black;
+  color: white;
+}
 
-code {
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
